@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+#navbar{
+    color: white;
+    background-color:black ;
+    border: 2px solid black;
+}
+#text{
+    text-align: center;
+}
+ul li{
+    margin-left: 90px;
+    display: inline-block;
+    list-style-type: none;
+    padding:  10px;
+}
+.dropdown2{
+    display: none;
+}
+ul li:hover .dropdown2{
+    display: block;
+    position: absolute;
+    margin-left: -102px;
+    margin-top: 10px;
+}
+.dropdown2 ul{
+    margin: 0px;
+    padding: 0px;
+}
+.dropdown2 ul li{
+    color: white;
+    background-color:black ;
+    border: 2px solid black;
+    display: block;
+}
+.dropdown2 ul li:hover{
+    background-color: green ;
+    color: white;
+}
+.dropdown3{
+    display: none;
+}
+.dropdown2 ul li:hover .dropdown3{
+    display: block;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.dropdown3 ul{
+    margin: 0px;
+    padding: 0px;
+}
+.dropdown3 ul li{
+    color: white;
+    background-color:black ;
+    border: 2px solid black;
+    display: block;
+}
+.dropdown3 ul li:hover{
+    background-color: green ;
+    color: white;
+}
+.backlink{
+    text-decoration: none;
+    color: white;
+}
+fieldset{
+    margin: 150px;
+    margin-top: 70px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: normal;
+    line-height: 1.5; 
+}
+#linkedinlogo{
+    display: inline;
+    vertical-align: middle;
+    margin-left: 600px;
+    height: 96px;
+    margin-right: 30px;
+}
+#name{
+    display: inline;
+    vertical-align: middle;
+}
+#githublogo{
+    display: inline;
+    vertical-align: middle;
+    height: 70px;
+    margin-left: 30px;
+}
+.nameadd{
+    float: left;
+}
+#margin{
+    margin-left: 30px;
+}
+#Educationul{
+    margin-left: -60px;
+}
+header{
+    position: sticky;
+    top: 0px;
+}

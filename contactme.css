@@ -1,0 +1,122 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+#navbar{
+    color: white;
+    background-color:black ;
+    border: 2px solid black;
+}
+#text{
+    text-align: center;
+}
+ul li{
+    margin-left: 90px;
+    display: inline-block;
+    list-style-type: none;
+    padding:  10px;
+}
+.dropdown2{
+    display: none;
+}
+ul li:hover .dropdown2{
+    display: block;
+    position: absolute;
+    margin-left: -102px;
+    margin-top: 10px;
+}
+.dropdown2 ul{
+    margin: 0px;
+    padding: 0px;
+}
+.dropdown2 ul li{
+    color: white;
+    background-color:black ;
+    border: 2px solid black;
+    display: block;
+}
+.dropdown2 ul li:hover{
+    background-color: green ;
+    color: white;
+}
+.dropdown3{
+    display: none;
+}
+.dropdown2 ul li:hover .dropdown3{
+    display: block;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.dropdown3 ul{
+    margin: 0px;
+    padding: 0px;
+}
+.dropdown3 ul li{
+    color: white;
+    background-color:black ;
+    border: 2px solid black;
+    display: block;
+}
+.dropdown3 ul li:hover{
+    background-color: green ;
+    color: white;
+}
+.backlink{
+    text-decoration: none;
+    color: white;
+}
+#main-container {
+    margin: 200px;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    width: 1200px;
+    height: 600px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+#photo img {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 120px;
+    height: 400px;
+    border: 2px solid black;
+}
+
+.credentials {
+    display: flex;
+    flex-direction: column;
+}
+
+.credentials input {
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 16px;
+}
+#container{
+    margin-top: -100px;
+}
+#text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+#text2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-align: left;
+}
+.button{
+    padding: 5px;
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+header{
+    position: sticky;
+    top: 0px;
+}
