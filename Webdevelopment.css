@@ -71,12 +71,8 @@ header{
     position: sticky;
     top: 0px;
 }
-.photo{
-    height: 650px;
-}
-fieldset{
-    border: 2px solid black;
-    margin: 150px;
-    margin-top: 70px;
-    padding: 0px;
+.card{
+    float:left;
+    margin-left: 20px;
+    top: 20px;
 }
