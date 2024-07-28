@@ -7,6 +7,7 @@ body{
     color: white;
     background-color:black ;
     border: 2px solid black;
+    z-index: 1000;
 }
 #text{
     text-align: center;
@@ -75,4 +76,27 @@ header{
     float:left;
     margin-left: 20px;
     top: 20px;
+    margin-bottom: 1rem;
+}
+.container{
+    position:absolute;
+    left: 75px;
+    top: 120px;
+}
+.card-deck .card {
+    margin: 0;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.col-md-4 {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
 }
